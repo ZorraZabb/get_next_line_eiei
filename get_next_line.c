@@ -91,8 +91,8 @@ char *ft_before_n(char *arr)
     tmp[i] = '\n';
     tmp[i++] = '\0';
     tmp2[j] = '\0';
-    printf("TMP   = [%s]\n", tmp);
-    printf("TMP02 = [%s]\n", tmp2);
+    // printf("TMP   = [%s]\n", tmp);
+    // printf("TMP02 = [%s]\n", tmp2);
     return (tmp);
 }
 
@@ -117,9 +117,9 @@ char *get_next_line(int fd)
             free(arr);
             return (NULL);
         }
-        printf("STRING[%d] = [%s]\n",fd,arr);
+        // printf("STRING[%d] = [%s]\n",fd,arr);
         line = ft_strjoin(line,arr);
-        printf("RESULT = [%s]\n",line);
+        // printf("RESULT = [%s]\n",line);
         if (check_if_n(arr))
             break;
     }
