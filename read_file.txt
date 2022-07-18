@@ -1,0 +1,8 @@
+ABCD
+return 0
+rush b rush b go get the BOMB.
+
+
+ABCD\nr
+0123 45
+i=6 j=2
